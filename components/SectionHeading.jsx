@@ -3,6 +3,7 @@ export default function SectionHeading({ eyebrow, title, description }) {
     <div className="section-heading">
       {eyebrow && <div className="eyebrow">{eyebrow}</div>}
       <h2>{title}</h2>
+      
       {description && <p>{description}</p>}
     </div>
   );
